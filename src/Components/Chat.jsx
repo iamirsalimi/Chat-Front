@@ -34,7 +34,7 @@ const Chat = ({ pvs, joinToChat, sendMsg, messages ,removeMsg }) => {
     if (token) {
       authUser(token)
     } else {
-      navigate('/auth')``
+      navigate('/Chat-Front/auth')``
     }
   }, [])
 
