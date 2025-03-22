@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #8774e1;
+  --secondary-color: #212121;
+  --gray-color: #aaa;
+  --white-color: #fff;
+  --black-color: #000;
+  --transition: all 0.2s ease-in-out;
+  --font-size-sm: 16px;
+  --font-size-md: 24px;
+  --font-size-lg: 32px;
+}
+* {
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: roboto, "vazir";
+  background-color: var(--secondary-color);
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.costom-row {
+  display: flex;
+}
+.costom-col-3 {
+  max-width: 420px;
+  z-index: 5;
+  background-color: var(--secondary-color);
+}
+.costom-col-9 {
+  transition: all 0.5s ease;
+  flex: 1;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/Vazir.eot), url(../fonts/Vazir.ttf),
+    url(../fonts/Vazir.woff), url(../fonts/Vazir.woff2);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "vazir-medium";
+  src: url(../fonts/Vazir-Medium.eot), url(../fonts/Vazir-Medium.ttf),
+    url(../fonts/Vazir-Medium.woff), url(../fonts/Vazir-Medium.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "roboto-medium";
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "roboto-bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "icons";
+  src: url("../fonts/icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
