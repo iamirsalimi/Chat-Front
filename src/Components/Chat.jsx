@@ -24,7 +24,7 @@ const Chat = ({ pvs, joinToChat, sendMsg, messages ,removeMsg }) => {
       console.log('user Infos -> ' , data)
       setUser({ ...data })
     } else {
-      location.href = '/auth'
+      location.href = '/Chat-Front/auth'
     }
   }
 
