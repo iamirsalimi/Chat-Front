@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import IO from "socket.io-client"
 import Auth from './Components/auth'
 import Chat from './Components/Chat'
+import NotFound from './Components/NotFound'
 
 import "../public/css/common.css"
 import "../public/css/style.css"
@@ -70,6 +71,7 @@ function App() {
     <Routes>
       <Route path="/Chat-Front/" element={<Chat pvs={pvs} joinToChat={joinToChat} sendMsg={sendMsg} messages={messages} removeMsg={removeMsg} />} />
       <Route path="/Chat-Front/auth" element={<Auth />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   )
 }
