@@ -69,8 +69,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/Chat-Front/" element={<Chat pvs={pvs} joinToChat={joinToChat} sendMsg={sendMsg} messages={messages} removeMsg={removeMsg} />} />
-      <Route path="/Chat-Front/auth" element={<Auth />} />
+      <Route path="/" element={<Chat pvs={pvs} joinToChat={joinToChat} sendMsg={sendMsg} messages={messages} removeMsg={removeMsg} />} />
+      <Route path="/auth" element={<Auth />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   )

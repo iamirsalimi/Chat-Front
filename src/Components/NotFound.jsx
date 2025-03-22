@@ -14,7 +14,7 @@ export default function NotFound() {
                 <div className="flex items-center justify-center gap-2">
                     <button
                         className="px-4 py-1 w-fit rounded-lg cursor-pointer text-lg bg-green-500 transition-colors hover:bg-green-600 text-white dark:text-primary font-vazir"
-                        onClick={() => navigate('/Chat-Front/', { replace: true })}
+                        onClick={() => navigate('/', { replace: true })}
                     >برگشت به صفحه اصلی</button>
                     <a href="movieWebsite.support@gmail.com:EMAIL?subject=گزارش مشکل و خرابی&body= درود وقت بخیر" target="_blank">
                         <button className="px-4 py-1 w-fit rounded-lg cursor-pointer text-lg bg-red-500 transition-colors hover:bg-red-600 text-white dark:text-primary font-vazir"

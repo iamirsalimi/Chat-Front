@@ -28,7 +28,7 @@ function Auth() {
             console.log('res -> ' , res , 'data -> ', data)
             localStorage.setItem('token', data.token)
             // location.href = '/'
-            navigate('/Chat-front/')
+            navigate('/')
         }
 
     };

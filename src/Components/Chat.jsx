@@ -24,7 +24,7 @@ const Chat = ({ pvs, joinToChat, sendMsg, messages ,removeMsg }) => {
       console.log('user Infos -> ' , data)
       setUser({ ...data })
     } else {
-      location.href = '/Chat-Front/auth'
+      location.href = '/auth'
     }
   }
 
@@ -34,7 +34,7 @@ const Chat = ({ pvs, joinToChat, sendMsg, messages ,removeMsg }) => {
     if (token) {
       authUser(token)
     } else {
-      navigate('/Chat-Front/auth')``
+      navigate('/auth')
     }
   }, [])
 
