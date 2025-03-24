@@ -4,7 +4,7 @@
 i'm amir mohammad salimi a front end developer from iran.
 I started this project after I finished learning socket.io css to strengthen and test and challenge my skills
 
-in this project you can add make an account, and chat with other users or delete your chat 
+this app is simple chat application
 
 ## FAQ
 
