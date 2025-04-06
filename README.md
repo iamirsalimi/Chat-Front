@@ -1,4 +1,3 @@
-
 # Hi, I'm Amir Mohammad Salimi! 👋
 
 i'm amir mohammad salimi a front end developer from iran.
