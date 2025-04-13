@@ -8,6 +8,7 @@ this app is just a simple chat application
 how it works?
 you should check the project with two diffrent browser , after register or login in 2 browsers open a chat with other browser's user (open chat brwser1's user with browser2's user and mutual ,after that you can chat with that user)
 
+
 before using panel you should Login/Register through Form and if you've already had an account(registered) you will logged in and if you haven't had an account you will register and after that you will redirect to the main chat page  
 
 #### For whom and why was this project launched?
