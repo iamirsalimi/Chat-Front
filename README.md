@@ -1,4 +1,5 @@
 I started this project after I finished learning socket.io css to strengthen and test and challenge my skills
+
 this app is just a simple chat application
 
 ## FAQ
